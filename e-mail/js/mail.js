@@ -6,7 +6,7 @@ console.log(email)
 
 for (let i = 0; i < emailArray.length && validator  != true ; i++) {
     
-    if(emailArray[i] === email){
+    if(emailArray[i] === email.toLowerCase){
         validator = true;
     } else{
         validator = false;
