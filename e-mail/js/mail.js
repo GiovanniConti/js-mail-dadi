@@ -14,7 +14,7 @@ for (let i = 0; i < emailArray.length && validator  != true ; i++) {
     console.log(email)
 }
 
-if (validator === true){
+if (validator){
     alert("ACCESS GRANTED");
 } else{
     alert("ACCESS DENIED");
